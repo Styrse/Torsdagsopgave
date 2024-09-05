@@ -53,11 +53,9 @@ void draw(){
   // 3 % 3 = 0
  
   //Add the code for 6.c here
-  if (counter == 0)
+  if (counter == 0)  {
     red = (int) random(255);
-  if (counter == 0)
     green = (int) random(255);
-  if (counter == 0)
     blue = (int) random(255);
-  
+  }
 }
